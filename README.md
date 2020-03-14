@@ -1,6 +1,6 @@
 # gridsome-remark-mermaid
 
-Use [mermaid](https://mermaid-js.github.io) code blocks in your markdown file to generate diagrams.
+Use [mermaid](https://mermaid-js.github.io) code blocks in your markdown file to generate diagrams with Gridsome and remark.
 
 This plugin is heavily inspired by [gatsby-remark-mermaid](https://github.com/ChappIO/gatsby-remark-mermaid).
 It uses **server-side rendering** to generate inline SVG code during the build process.
@@ -59,12 +59,12 @@ Then use mermaid code blocks in your markdown to generate diagrams:
 | viewport.width  | 200                   | The desired viewport width                                                                                                                                      |
 | viewport.height | 200                   | The desired viewport height                                                                                                                                     |
 | removeStyleTags | false                 | Remove all style tags from the generated SVG. If you use this option you will have to import the mermaid css at some point                                      |
-| id              | mermaid-<currentTime> | Sets the identifier of the SVG. Defaults to a unique ID based on the time of generation                                                                         |
+| id              | `mermaid-<currentTime>` | Sets the identifier of the SVG. Defaults to a unique ID based on the time of generation                                                                         |
 | mermaidOptions  | {}                    | Pass some custom [mermaid configuration options](https://mermaid-js.github.io/mermaid/#/mermaidAPI?id=configuration) to `mermaid.initialize()`                                                                                    |
 
 The default options are:
 
-~~~json
+~~~js
 {
   language: "mermaid",
   theme: "default",
