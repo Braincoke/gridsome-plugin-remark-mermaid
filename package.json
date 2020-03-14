@@ -1,0 +1,35 @@
+{
+  "name": "gridsome-plugin-remark-mermaid",
+  "version": "1.0.0",
+  "description": "Use mermaidjs in your markdown to create diagrams.",
+  "homepage": "https://github.com/Braincoke/gridsome-plugin-remark-mermaid#readme",
+  "repository": "https://github.com/Braincoke/gridsome-plugin-remark-mermaid",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Braincoke",
+  "license": "MIT",
+  "dependencies": {
+    "mermaid": "^8.4.8",
+    "path": "^0.12.7",
+    "puppeteer": "^2.1.1",
+    "unist-util-remove": "^2.0.0",
+    "unist-util-visit": "^2.0.2",
+    "xast-util-from-xml": "^1.0.0",
+    "xast-util-to-xml": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "remark": "^11.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "mermaid",
+    "remark"
+  ]
+}
