@@ -8,7 +8,7 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "Braincoke",
+  "author": "Braincoke <braincoke+contact@protonmail.com>",
   "license": "MIT",
   "dependencies": {
     "mermaid": "^8.4.8",
