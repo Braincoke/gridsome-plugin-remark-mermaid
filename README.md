@@ -54,7 +54,7 @@ Then use mermaid code blocks in your markdown to generate diagrams:
 
 The generated SVG is wrapped in `<div class="mermaid"></div>` to help you customize your styles.
 
-When using the `removeStyleTags` attribute, you will need to import your Mermaid themes yourself.
+When using the `removeStyleTags` attribute, you will need to import your Mermaid themes yourself. You can find an example project [here](https://github.com/Braincoke/starter-gridsome-mermaid).
 
 ## Options
 
