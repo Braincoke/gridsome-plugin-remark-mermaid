@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-remark-mermaid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use mermaidjs in your markdown to create diagrams.",
   "homepage": "https://github.com/Braincoke/gridsome-plugin-remark-mermaid#readme",
   "repository": "https://github.com/Braincoke/gridsome-plugin-remark-mermaid",

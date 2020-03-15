@@ -50,6 +50,12 @@ Then use mermaid code blocks in your markdown to generate diagrams:
     B --> C
   ~~~
 
+## Styling
+
+The generated SVG is wrapped in `<div class="mermaid"></div>` to help you customize your styles.
+
+When using the `removeStyleTags` attribute, you will need to import your Mermaid themes yourself.
+
 ## Options
 
 | Name            | Default               | Description                                                                                                                                                     |

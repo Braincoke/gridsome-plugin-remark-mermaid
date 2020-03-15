@@ -41,6 +41,7 @@ async function render(browser, definition, theme, viewport, removeStyleTags, svg
     remove(xmlAST, node => node.name=='style')
     graph = toXml(xmlAST)
   }
+  graph = '<div class="mermaid">' + graph + '</div>'
   return graph
 }
 
